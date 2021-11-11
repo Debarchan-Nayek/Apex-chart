@@ -1,11 +1,12 @@
 import './App.css';
 import Chart from 'react-apexcharts';
+import UI from './UI';
 
 function App() {
   return (
-    <div className="container">
-      <header className="App-header">
-        <Chart
+    <div>
+      <UI />
+        {/* <Chart
           type="line"
           width={500}
           height={500}
@@ -38,17 +39,8 @@ function App() {
             tooltip: {
               followCursor: true,
             },
-
-            // legend: {
-            //   position: "top",
-            //   horizontalAlign: "right",
-            //   floating: true,
-            //   offsetY: -25,
-            //   offsetX: -5,
-            // },
           }}
-        />
-      </header>
+        /> */}
     </div>
   );
 }
